@@ -28,7 +28,7 @@ var tweets = db.model('tweets', schema);
 
 
 var app = express();
-var server = http.createServer(app).listen(3000);
+var server = http.createServer(app).listen(3030);
 var io = require('socket.io').listen(server);
 // all environments
 app.set('port', process.env.PORT || 3000);
